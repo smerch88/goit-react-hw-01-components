@@ -1,0 +1,38 @@
+.transactionHistory {
+  border-collapse: collapse;
+  tr:nth-child(even) th {
+    background-color: #25c;
+  }
+  th,
+  td {
+    border: 1px solid black;
+  }
+  tbody tr:nth-child(odd) {
+    background-color: #ff33cc;
+  }
+
+  tbody tr:nth-child(even) {
+    background-color: #e495e4;
+  }
+
+  table {
+    background-color: #ff33cc;
+  }
+
+  thead,
+  tfoot {
+    color: white;
+    text-shadow: 1px 1px 1px black;
+  }
+
+  thead th,
+  tfoot th,
+  tfoot td {
+    background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.1),
+      rgba(0, 0, 0, 0.5)
+    );
+    border: 3px solid purple;
+  }
+}
