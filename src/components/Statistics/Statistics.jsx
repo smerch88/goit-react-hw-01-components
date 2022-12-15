@@ -10,7 +10,7 @@ import {
 const Statistics = ({ stats, title }) => {
   return (
     <StatisticsSection>
-      <Title>{title}</Title>
+      {title ? <Title>{title}</Title> : ``}
       <Ul>
         {stats.map(item => (
           <Li className="item" key={item.id}>
